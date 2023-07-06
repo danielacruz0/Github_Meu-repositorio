@@ -1,0 +1,59 @@
+body{
+    background-image: url(imagens/logotipo2.jpg);
+    background-size: cover;
+    color: white;
+}
+.Title{
+    font-size: 80px;
+}
+.DivMain{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0px;
+    justify-content: flex-end;
+    height: 443px;
+    margin-right: 40px;
+}
+.Subtitle{
+    font-size: 50px;
+}
+.SecondDive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background: rgb(35, 62, 160);
+    padding: 16px;
+    width: 420px;
+    margin-top: 32px;
+    margin-right: 318px;
+}
+input{
+    height:29px;
+}
+.form_button{
+    background-color: rgb(231, 228, 228);
+    height: 30px;
+    color:black ;
+    font-size: 20px; 
+    cursor:pointer;
+    border:rgb(197, 210, 236);
+}
+.form_button:hover{
+    background-color: aqua;
+    border: solid aqua;
+}
+}
+.margin--botton{
+    margin-bottom: 10px;
+}
+.font--size{
+    font-size: 25px;
+}
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
